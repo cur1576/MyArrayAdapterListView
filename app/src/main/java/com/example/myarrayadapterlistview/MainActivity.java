@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         items.add(new MyItem("Christian", "aus Berlin",R.mipmap.ic_launcher,true));
         items.add(new MyItem("Frank", "aus Berlin",R.mipmap.ic_launcher_round,false));
         items.add(new MyItem("Ronny", "aus Berlin",R.mipmap.ic_launcher_round,true));
-        items.add(new MyItem("Sebastien", "aus Offenbach",R.mipmap.ic_launcher,true));
+        items.add(new MyItem("Sebastian", "aus Offenbach",R.mipmap.ic_launcher,true));
 
         ListView listView = findViewById(R.id.lv_mylist);
 

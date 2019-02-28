@@ -32,6 +32,7 @@ public class MyAdapter extends ArrayAdapter<MyItem> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         convertView = ((Activity)context).getLayoutInflater().inflate(resourceView,parent,false);
+
         TextView name = convertView.findViewById(R.id.tv_name);
         name.setText(myItems.get(position).getName());
         TextView beschreibung = convertView.findViewById(R.id.tv_beschreibung);
